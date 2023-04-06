@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #f2f2f2;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.cadastro a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    background-color: #04ddb2;
+    padding: 12px;
+    border-radius: 40px;
+}
+
+.cadastro a:hover {
+    color: #04ddb2;
+    background: #333;
+    transition: 1s;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Farro';
+    font-size: 40px;
+}
+
+.container {
+    margin: 80px;
+}
+
+.parte-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle at 12.5% 12.5%, #a7ffba 0, #94fdbc 12.5%, #7af5ba 25%, #57ebb7 37.5%, #03ddb1 50%, #00cfac 62.5%, #00c4ac 75%, #00bcae 87.5%, #00b7b4 100%);
+    max-width: 1200px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.texto {
+    width: 600px;
+}
+
+.texto h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.texto p {
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.parte-1 .foto-1 img {
+    width: 600px;
+    filter: grayscale(100);
+}
+
